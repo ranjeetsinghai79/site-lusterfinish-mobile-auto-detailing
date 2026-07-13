@@ -103,3 +103,16 @@
   --brand-grad-to: #DC2626;
   --shadow-cta: 0 8px 32px -4px rgba(220,38,38,0.35);
 }
+
+/* ── Design Profile: Soft Wellness ── */
+/* ── Fonts: Crimson Pro + Lato ── */
+:root {
+  --font-display: 'Crimson Pro', serif;
+  --font-body: 'Lato', sans-serif;
+  --brand-accent: #DC2626;
+  --brand-accent-light: #EF4444;
+  --brand-accent-glow: rgba(220,38,38,0.25);
+  --brand-grad-from: #EF4444;
+  --brand-grad-to: #DC2626;
+  --shadow-cta: 0 8px 32px -4px rgba(220,38,38,0.35);
+}
