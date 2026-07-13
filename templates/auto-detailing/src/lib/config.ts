@@ -2,108 +2,60 @@ import type { SiteConfig } from "@core/web/types"
 
 export const config: SiteConfig = {
   business: {
-  city: "Tracy",
-  theme: "clean",
-  niche: "auto-detailing",
-  name: "Apex Auto Detailing",
-  tagline: "Every Detail. Perfected.",
-  phone: "(555) 012-3456",
-  phoneHref: "tel:+15550123456",
-  email: "hello@apexautodetail.com",
-  address: "Tracy, California",
-  serviceAreas: ["Tracy", "Stockton", "Modesto", "Manteca", "Pleasanton", "Livermore"],
-  license: "CA Business #012345",
-  since: "2014",
-  google_rating: "5.0",
-  review_count: "276",
-  emergency: false,
-  social: { google: "https://google.com", yelp: "https://yelp.com", facebook: "https://facebook.com" },
-},
-
-  services: [
-  { icon: "sparkles", image: "/service-1.jpg", title: "Ceramic Coating",    desc: "9H hardness nano-ceramic protection. 5-year warranty. Hydrophobic, scratch-resistant, showroom shine that lasts years.", urgent: false },
-  { icon: "star",     image: "/service-2.jpg", title: "Paint Correction",   desc: "Multi-stage machine polishing removes swirls, scratches, and oxidation. Restore your car's true shine.", urgent: false },
-  { icon: "zap",      image: "/service-3.jpg", title: "Full Detail Package", desc: "Interior + exterior deep clean. Clay bar, hand wax, leather conditioning, engine bay. The full treatment.", urgent: false },
-  { icon: "droplets", image: "/service-4.jpg", title: "Interior Detail",    desc: "Deep extraction shampoo, leather cleaning and conditioning, dashboard and trim dressing. Fresh from the inside.", urgent: false },
-  { icon: "shield",   image: "/service-5.jpg", title: "PPF (Paint Film)",   desc: "Self-healing urethane film for bumpers, hoods, mirrors. Invisible protection against rock chips and scratches.", urgent: false },
-  { icon: "sun",      image: "/service-6.jpg", title: "Window Tinting",     desc: "Premium ceramic tint. Heat rejection, UV protection, privacy. Legal limits honored. Lifetime warranty.", urgent: false },
-],
-
-  about: {
-    heading: "Your Car Deserves Better Than a Gas Station Wash",
-    body: "Since 2014, Apex has detailed 1,380+ vehicles across Tracy, the Bay Area, and the Central Valley. Ceramic Pro certified. Gyeon and Gtechniq authorized installer. From paint correction to PPF and ceramic coating, we use the same premium products as top European detailing shops — and back every ceramic coat with a 5-year warranty.",
-    highlights: [
-      { icon: "award",   text: "Ceramic Pro certified — manufacturer-backed 5-year warranty on all coatings" },
-      { icon: "star",    text: "Paint correction specialists — swirls, scratches, and oxidation removed before any coating" },
-      { icon: "truck",   text: "Mobile service available — we come to your home or office, no waiting at a shop" },
-    ],
+    name: "LusterFinish Mobile Auto Detailing",
+    tagline: "Detailing Excellence, Mobile Convenience.",
+    phone: "(510) 760-0763",
+    phoneHref: "tel:+15107600763",
+    email: "info@lusterfinishdetailing.com",
+    address: "318 Mercantile St, Lathrop, CA 95330, USA",
+    city: "Lathrop",
+    serviceAreas: ["Lathrop"],
+    since: "2018",
+    google_rating: "4.9",
+    review_count: "96",
+    emergency: false,
+    theme: "clean",
+    niche: "auto-detailing",
   },
 
+  services: [
+    { icon: "home", title: "Full Interior Detail", desc: "Deep clean and restore every surface inside your vehicle for a fresh, like-new feel.", urgent: false },
+    { icon: "droplets", title: "Exterior Hand Wash & Wax", desc: "Gentle hand wash, clay bar treatment, and premium wax application for a brilliant, protected finish.", urgent: false },
+    { icon: "sparkles", title: "Paint Correction & Polishing", desc: "Remove swirl marks, light scratches, and oxidation to restore your paint's original luster.", urgent: false },
+    { icon: "scissors", title: "Upholstery & Carpet Extraction", desc: "Thorough steam cleaning and extraction to eliminate stains, odors, and dirt from fabrics.", urgent: false },
+    { icon: "heart", title: "Leather Cleaning & Conditioning", desc: "Carefully clean, nourish, and protect your leather surfaces to prevent cracking and fading.", urgent: false },
+    { icon: "zap", title: "Headlight Restoration", desc: "Restore cloudy, yellowed headlights to crystal clarity for improved visibility and aesthetics.", urgent: false }
+  ],
+
   testimonials: [
-  { name: "Marcus J.", location: "Tracy, CA", stars: 5, avatar: "https://i.pravatar.cc/80?u=marcus_tracy_autodetail", text: "Ceramic coated my BMW last year. Water beads off like nothing. Hasn't been to a car wash since. Worth every single dollar." },
-  { name: "Tyler R.", location: "Pleasanton, CA", stars: 5, avatar: "https://i.pravatar.cc/80?u=tyler_pleasanton_autodetail", text: "Paint correction on my 10-year-old Mustang made it look brand new. The swirl marks are completely gone. Insane transformation." },
-  { name: "David K.", location: "Stockton, CA", stars: 5, avatar: "https://i.pravatar.cc/80?u=david_stockton_autodetail", text: "Full interior detail after a road trip disaster. Kids had destroyed it. Looks like I just drove it off the lot. Literally perfect." },
-],
+    { name: "Debbie D.", location: "Lathrop Area", stars: 5, text: "I’m thrilled with the beautiful detail that Luster Finish did on my 5 year old car. It was it’s first detail and it looks like new inside and out! Five stars ⭐️ ⭐️⭐️⭐️" },
+    { name: "Evan Johnson", location: "Lathrop Area", stars: 5, text: "After reading all the great reviews I hired Jose and he did not disappoint! He came to my house and did a ceramic coating on my 3 year old 4Runner with 50K miles and on my brand new Mini Cooper S.  Jose was very professional and attentive and both cars turned out great.  The 4Runner looks new and I've already received compliments on it.  Excited to have the new coating to help keep the Mini looking showroom fresh. Jose also provided tons of advice on maintaining and keeping the cars clean and shiny, including recommendations on products to use.  Highly recommended!" },
+    { name: "Benjamin Dale", location: "Lathrop Area", stars: 5, text: "I bought my new (to me) truck a few months ago.  The dealership slapped on some wax and ArmorAll to shine it up.  It is 6 years old now with 85k miles.  The paint needed some attention.  It had swirls from the automatic style car washes.  The roof had some serious issues from prolonged inattention.  A hazy ugly spot on the quarter panel where someone had poorly tried to fill in a chip.  I asked for a quote online at around 8:30 pm.  Jose texted me within minutes and we started talking about what the truck needed.  He had availability the next morning and arrived sharply at 8am.  We talked about possible issues on the truck and the different packages before settling on the one we had previously texted about.  He didn't try to upsell me to something outside of my budget.  We actually talked for a while about a number of things before he got rolling.  His mobile detailing van is completely self sufficient.  He doesn't need to use your electricity or water.  About 3 and a half hours later he was done and I am extremely happy.  Swirls are gone.  Roof looks way better.  That poorly fixed chip is now barely noticeable.  The light wasn't the best when I took the photos, but trust me, it's way way better than it was.  I'm a fan of Jose and will be recommending him to anyone looking for some detailing work.  He even texted me the following day unprompted with some suggestions of products to use to keep the truck maintained after the detail.  Might need to have him do the interior next!" }
+  ],
 
   trustBadges: [
-  "Ceramic Pro Certified", "Paint Correction Specialists", "5-Star Google Rated",
-  "5-Year Ceramic Warranty", "Mobile Service Available", "Free Estimates"
-],
+    "Licensed & Insured", "Mobile Service Available", "4.9 Star Google Rated", "Open 7 Days A Week", "Premium Products Used", "Satisfaction Guaranteed"
+  ],
 
   stats: [
-  { value: 5,    label: "Google Rating",        suffix: "★",   decimals: 1 },
-  { value: 1380, label: "Vehicles Detailed",    suffix: "+",   decimals: 0 },
-  { value: 12,   label: "Years Experience",     suffix: "+",   decimals: 0 },
-  { value: 5,    label: "Ceramic Warranty",     suffix: "-yr", decimals: 0 },
-],
+    { value: 4.9, label: "Google Rating", suffix: "★", decimals: 1 },
+    { value: 500, label: "Vehicles Detailed", suffix: "+", decimals: 0 },
+    { value: 5, label: "Yrs Experience", suffix: "+", decimals: 0 }
+  ],
 
   reasons: [
-  { "icon": "award", "title": "Ceramic Coating Certified", "desc": "IDA-certified detailer. Gyeon and Gtechniq authorized installer. Protection that lasts years, not weeks." },
-  { "icon": "star", "title": "Paint Correction", "desc": "Swirl marks, scratches, oxidation removed before any coating. We don't just cover problems — we fix them." },
-  { "icon": "droplets", "title": "Interior Steam Clean", "desc": "Chemical-free steam sanitization kills bacteria and odors. No harsh solvents near your leather or plastics." },
-  { "icon": "truck", "title": "Mobile Service Available", "desc": "We come to your home or office. No waiting at a shop — we work around your schedule." },
-  { "icon": "shield", "title": "Insured & Bonded", "desc": "Full coverage for any accidental damage while your vehicle is in our care. Zero risk to you." },
-  { "icon": "sparkles", "title": "Premium Products Only", "desc": "Koch Chemie, CarPro, Gyeon — same products used in high-end European detailing shops." }
-],
-
-  formServiceOptions: [
-  "Ceramic Coating",
-  "Paint Correction",
-  "Full Detail Package",
-  "Interior Detail",
-  "PPF (Paint Film)",
-  "Window Tinting",
-],
-
-  faq: [
-    {
-      q: "How long does ceramic coating last?",
-      a: "Our ceramic coatings are rated for 5 years with proper maintenance. We back it with a written 5-year warranty — if the hydrophobic properties fail before then, we recoat at no charge.",
-    },
-    {
-      q: "What is paint correction and do I need it?",
-      a: "Paint correction removes swirl marks, scratches, and oxidation through machine polishing. If your car has swirls visible in sunlight, correction makes a dramatic difference. We always recommend correction before any ceramic coating.",
-    },
-    {
-      q: "Can you come to my home or office?",
-      a: "Yes. Our mobile service covers Tracy, Stockton, Modesto, Manteca, Pleasanton, and Livermore. We bring everything needed — water, power, all equipment. Most details are completed at your location in 3–6 hours.",
-    },
-    {
-      q: "How much does ceramic coating cost?",
-      a: "Single-stage coating (3-year): $699–$999. Premium 5-year coating with paint correction: $1,400–$1,800 depending on vehicle size and paint condition. Free paint assessment before quoting.",
-    },
-    {
-      q: "How long do I have to wait after a detail?",
-      a: "Exterior details can get wet immediately. Ceramic coatings need 7 days cure time before washing. We'll give you a care sheet specific to your treatment at pickup.",
-    },
-    {
-      q: "What brands of products do you use?",
-      a: "Koch Chemie, CarPro, Gyeon, and Gtechniq — the same products used in top European detailing shops. No cheap consumer-grade wax or sealant. Your investment deserves the best.",
-    },
+    { icon: "award", title: "Certified Detailing Technicians", desc: "Our skilled team undergoes rigorous training to deliver flawless results every time." },
+    { icon: "shield-check", title: "Ceramic Coating Specialists", desc: "Protect your vehicle's paint with advanced, long-lasting ceramic coating applications." },
+    { icon: "truck", title: "Mobile Service Available", desc: "We bring our fully equipped detailing studio directly to your home or office for ultimate convenience." },
+    { icon: "star", title: "Guaranteed Showroom Finish", desc: "We stand by our work, ensuring your vehicle leaves with an impeccable, showroom-quality shine." },
+    { icon: "sparkles", title: "Premium Products Only", desc: "Only the highest quality, professional-grade products are used for superior results and protection." },
+    { icon: "phone", title: "Real Humans Answer", desc: "Speak directly with a knowledgeable team member for personalized service and quick scheduling." }
   ],
+
+  formServiceOptions: ["Full Interior Detail", "Exterior Hand Wash & Wax", "Paint Correction & Polishing", "Upholstery & Carpet Extraction", "Leather Cleaning & Conditioning", "Headlight Restoration"]
 }
 
-// Backward compat re-exports
+// Backward-compat re-exports
 export const BUSINESS = config.business
 export const SERVICES = config.services!
 export const TESTIMONIALS = config.testimonials!
