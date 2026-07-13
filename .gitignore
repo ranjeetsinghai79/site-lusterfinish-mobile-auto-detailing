@@ -1,0 +1,43 @@
+node_modules/
+.next/
+dist/
+out/
+*.tsbuildinfo
+.env
+.env.local
+*.log
+.DS_Store
+pipeline/service-account.json
+
+# Screenshots from testing (root-level only)
+/*.jpeg
+/*.jpg
+/*.png
+/*.MP4
+
+# Template public assets ARE tracked (negation would be complex — use path-specific ignore)
+# Pipeline/admin screenshots
+pipeline/**/*.png
+pipeline/**/*.jpeg
+admin/**/*.png
+.playwright-mcp/
+
+# Editor / agent state
+.claude/
+
+# Build artifacts
+my-website/out/
+my-website/.next/
+admin/.next/
+admin/tsconfig.tsbuildinfo
+templates/*/out/
+templates/*/.next/
+templates/*/tsconfig.tsbuildinfo
+webcrew/out/
+webcrew
+my-website/
+.vercel
+*.mp4
+vercel.json
+admin/.env.local
+admin/.env*.local
