@@ -36,7 +36,7 @@ export default function Home() {
         <AutoDetailingPhotoStrip />
 
         {/* 7. Why us — 3D tilt cards with stat counters */}
-        <WhyUs config={config} label="Why Apex" heading="Why serious car owners choose us." />
+        <WhyUs config={config} label={`Why ${config.business.name.split(" ")[0]}`} heading="Why serious car owners choose us." />
 
         {/* 8. Reviews */}
         <Reviews
