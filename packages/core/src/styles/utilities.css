@@ -305,7 +305,8 @@ button:not([style]):hover {
   -webkit-backdrop-filter: none;
 }
 [data-theme="clean"] .glass-dark:hover {
-  background: #FAFBFF;
+  /* derive from card bg — hardcoded near-white broke dark injected designs (white card, invisible text) */
+  background: color-mix(in srgb, var(--brand-card-bg) 94%, var(--brand-accent) 6%);
   border-color: color-mix(in srgb, var(--brand-accent) 30%, transparent);
 }
 
@@ -333,7 +334,7 @@ button:not([style]):hover {
   -webkit-backdrop-filter: none;
 }
 [data-theme="champagne"] .glass-dark:hover {
-  background: #FFFDF9;
+  background: color-mix(in srgb, var(--brand-card-bg) 94%, var(--brand-accent) 6%);
   border-color: color-mix(in srgb, var(--brand-accent) 28%, transparent);
 }
 
